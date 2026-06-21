@@ -10,4 +10,21 @@ public class Password {
         this.username = user;
         this.website = web;
     }
+
+    public String getPass(){
+        return this.pass;
+    }
+
+    public String getUser(){
+        return this.username;
+    }
+
+    public String getSecAns(){
+        return this.secuitryAnswer;
+    }
+
+    public String getSecQuesion(){
+        return this.securityQuestion;
+    }
+
 }
