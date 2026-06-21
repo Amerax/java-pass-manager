@@ -23,8 +23,19 @@ public class Password {
         return this.secuitryAnswer;
     }
 
+    public String getWebsite(){
+        return this.website;
+    }
+
     public String getSecQuesion(){
         return this.securityQuestion;
     }
 
+    public void setSecQuestion(String x){
+        this.securityQuestion = x;
+    }
+
+    public void setSecAns(String x){
+        this.secuitryAnswer = x;
+    }
 }
